@@ -1,0 +1,76 @@
+.heading
+{
+  
+    top: 0%;
+    background:black;
+    padding-top: 0.01cm;
+    padding-bottom: 0.01cm;
+    
+    overflow:auto;
+}
+.heading h1
+{
+    color: white;
+    text-align: center;
+
+}
+.menu
+{
+    background:white;
+    padding-top:0cm ;
+    /* overflow:unset; */
+    /* position:sticky; */
+   
+}
+.menu1
+{
+    position: sticky;
+   
+}
+.menu ul
+{
+    overflow: auto;
+    padding-top: 0cm;
+	 border: 2px solid;
+	 border-radius:25px;
+    
+}
+.menu li
+{
+    display: flex;
+    /* text-align: justify */
+    text-transform:capitalize;
+    justify-content: space-around;
+    overflow: auto;
+    float: left;
+    font-size: large;
+    
+}
+.menu ul li   a
+{
+    color: #000;
+    text-decoration: none;
+    /* display:flex; */
+    padding: 9px;
+    justify-content: space-around;
+    text-align: justify;
+    
+
+
+}
+
+.menu li :hover
+{
+    background: #000;
+    color: white;
+    border: 1px ;
+    border-radius: 10px;
+    transition-property: initial;
+    
+}
+.menu1 div
+{
+    top: -0.6cm;
+    position:relative;
+    padding-bottom: .2cm;
+}

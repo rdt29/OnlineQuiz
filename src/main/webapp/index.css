@@ -1,0 +1,185 @@
+body
+{
+    margin: 0%;
+    
+    border: 0ch;
+    /* background-image: url("https://source.unsplash.com/weekly?books"); */
+    background-image: url("books.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.heading
+{
+  
+    top: 0%;
+    background:black;
+    padding-top: 0.01cm;
+    padding-bottom: 0.01cm;
+    
+    overflow:auto;
+}
+.heading h1
+{
+    color: white;
+    text-align: center;
+
+}
+.menu
+{
+    background:white;
+    padding-top:0cm ;
+    /* overflow:unset; */
+    /* position:sticky; */
+}
+.menu1
+{
+    position: sticky;
+}
+.menu ul
+{
+    overflow: auto;
+    padding-top: 0cm;
+
+    
+}
+.menu li
+{
+    display: flex;
+    /* text-align: justify */
+    text-transform:capitalize;
+    justify-content: space-around;
+    overflow: auto;
+    float: left;
+    font-size: large;
+    
+}
+.menu ul li   a
+{
+    color: #000;
+    text-decoration: none;
+    /* display:flex; */
+    padding: 9px;
+    justify-content: space-around;
+    text-align: justify;
+    
+
+
+}
+
+.menu li :hover
+{
+    background: #000;
+    color: white;
+    border: 1px ;
+    border-radius: 10px;
+    transition-property: initial;
+    
+}
+.menu1 div
+{
+    top: -0.6cm;
+    position:relative;
+    padding-bottom: .2cm;
+}
+
+
+
+.form1
+{
+    /* left: 2cm; */
+    position:absolute;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: .5cm;
+    padding-top: 0cm;
+
+    animation-name: rdt1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes rdt1 {
+    0%
+    {   
+        left:0cm;
+        
+
+    }
+    100%
+    {
+        left:2cm;
+
+    }
+    
+}
+.form1 h3
+{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: .5cm;
+}
+input[type = "submit"]
+{
+    width: 100%;
+    height: .9cm;
+    color:black;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px ;
+
+}
+input[type = "submit"]:hover
+{
+    background-color: green;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.teacher
+{
+    width: 100%;
+    border: 2px;
+    border-radius:10px ;
+    
+}
+.teacher a
+{
+    color: black;
+    align-items: center;
+}
+
+.teacher :hover
+{
+    background: #000;
+    color: lawngreen;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+
+.footer
+{
+    position: relative;
+    top: 12cm;
+    height: 5cm;
+    background-color: black;
+    color: white;
+}
+.contact
+{
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    text-decoration:underline;
+    text-overflow:inherit;
+}
+.ss
+{
+    text-align: center;
+    word-spacing: 2cm;
+    text-decoration: none;
+}
